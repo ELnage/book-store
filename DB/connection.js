@@ -1,5 +1,5 @@
 import  Mongoose  from "mongoose";
-
+// test monogo atlas
 export const db_connection = async () => {
   try {
     await Mongoose.connect(
