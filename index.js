@@ -13,4 +13,4 @@ app.use("/" , (req , res)=>{
   res.send("welcome")
 })
 db_connection()
-app.listen(3000 , ()=> console.log("server is running on 3000"))
+app.listen(8080 , ()=> console.log("server is running on 3000"))
